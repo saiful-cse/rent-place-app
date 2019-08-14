@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="khujedaw.saiful.creativesaif.com.khujedaw">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".MySingleton"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Posts.PostDetailsPrivate"
+            android:label="@string/ads_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Posts.PostDetailsPublic"
+            android:label="@string/ads_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".User.ProfileView"
+            android:label="@string/profile_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".User.ProfileEdit"
+            android:label="@string/profile_edit"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Posts.AddPost"
+            android:label="@string/add_ads"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Comment_Complaint"
+            android:label="@string/comment_complaint"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Posts.PostEdit"
+            android:label="@string/ads_edit"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".PhoneVerify.PhoneVerifyStep1"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".PhoneVerify.PhoneVerifyStep2"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".User.UserRegistration"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Posts.MyPosts"
+            android:label="@string/my_ads"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Search.Search"
+            android:label="@string/search" />
+        <activity
+            android:name=".Policeies.Policies"
+            android:label="@string/policies" />
+        <activity
+            android:name=".Policeies.Terms_Conditions"
+            android:label="@string/terms" />
+        <activity
+            android:name=".Policeies.Privacy_Policy"
+            android:label="@string/policy" />
+        <activity
+            android:name=".Search.Search_Location"
+            android:label="@string/location" />
+        <activity
+            android:name=".About"
+            android:label="@string/about"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="153a8a5b2d99a10c8f2e7296650d2eb4988307a5" />
+    </application>
+
+</manifest>

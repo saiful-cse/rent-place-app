@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "948302398122",
+    "firebase_url": "https://khujenin.firebaseio.com",
+    "project_id": "khujenin",
+    "storage_bucket": "khujenin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948302398122:android:0f7567697c44888e",
+        "android_client_info": {
+          "package_name": "khujedaw.saiful.creativesaif.com.khujedaw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948302398122-n60kr31o722cvfu6e9sckmhpkegd3jv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "khujedaw.saiful.creativesaif.com.khujedaw",
+            "certificate_hash": "b49eaddcc6a78eea6c1ba18f564735a62cb520a9"
+          }
+        },
+        {
+          "client_id": "948302398122-md9cl2vkpjdj2fjpj9njcatl9fut0ddq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC05pwgkUGl4-OxCAlvbxoy8-S-4VU_HMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948302398122-md9cl2vkpjdj2fjpj9njcatl9fut0ddq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

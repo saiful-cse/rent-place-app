@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Rent Place</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Default text for service description -->
+    <string name="serviceDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</string>
+
+    <!-- Activity title -->
+    <string name="ads_details">Post Details</string>
+    <string name="profile_view">Profile</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="add_ads">Add Post</string>
+    <string name="comment_complaint">Comment/Complaint</string>
+    <string name="ads_edit">Edit Post</string>
+    <string name="my_ads">My Post</string>
+    <string name="search">Search here,,,</string>
+    <string name="policies">Policies</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="policy">Privacy Policy</string>
+    <string name="location">Location Search</string>
+    <string name="about">About</string>
+
+    <!-- Verification Activity title -->
+    <string name="verification1_title">Verification code on your phone</string>
+    <string name="verification1_desc">We will send verification code on the mobile number</string>
+    <string name="verification2_title">OTP Verification</string>
+    <string name="verification2_desc">Please enter the 6 digit code sent to </string>
+
+
+    <!-- <string name="base_url">http://192.168.43.108/khujenin_rest_api/api/</string> -->
+    <string name="base_url">https://creativesaif.com/khujenin_rest_api/api/</string>
+
+    <!-- posts script directory -->
+    <!-- private CRUD -->
+    <string name="post_publish">post/create.php?</string>
+    <string name="myPostLoad">post/readCollection.php?phone=</string>
+    <string name="updatePost">post/update.php</string>
+    <string name="deletePost">post/delete.php</string>
+
+    <!-- public read -->
+    <string name="post_load">post/load_post.php</string>
+    <string name="more_post_load">post/load_more_post.php</string>
+    <string name="search_post">post/advance_search.php</string>
+
+    <!-- users script directory -->
+    <string name="user_registration">user/create.php</string>
+    <string name="user_exist_check">user/user_check_exist.php?phone=</string>
+    <string name="getUserInfo">user/readOne.php?phone=</string>
+    <string name="updateUserInfo">user/update.php</string>
+
+    <!-- server main photo path -->
+    <string name="user_photo_path">user/photo/</string>
+    <string name="post_photo_path">post/photo/</string>
+
+    <!-- users comment -->
+    <string name="comment_add">user/comment_add.php</string>
+
+    <string name="terms_url">https://creativesaif.com/khujenin_rest_api/api/terms</string>
+    <string name="policy_url">https://creativesaif.com/khujenin_rest_api/api/policy</string>
+
+
+</resources>
